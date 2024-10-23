@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/Akiovictor/trabalho_json_grafico/refs/heads/main/informacoes.json'
+const url = 'https://raw.githubusercontent.com/luizcpj19/aula-23-10/refs/heads/main/informacoes.json'
 
 async function vizualizarInformacoes() {
     const res = await fetch(url)
