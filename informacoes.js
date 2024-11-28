@@ -11,7 +11,7 @@ async function vizualizarInformacoes() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `uma pesquisa mostra<span>o quanto em media</span>as pessoas<span>consomem frutas</span>em media <span>. Abaixo está o resultado do Questionário`
+    paragrafo.innerHTML = `uma pesquisa mostra<span> o quanto em media </span>as pessoas <span>consomem frutas</span> em media <span>. Abaixo está o resultado do Questionário`
 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
